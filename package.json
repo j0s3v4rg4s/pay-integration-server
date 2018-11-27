@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
-    "prestart": "imraf dist && tsc",
+    "prestart": "rimraf dist && tsc",
     "start": "node dist/main.js",
     "start:dev": "nodemon",
     "start:debug": "nodemon --config nodemon-debug.json",
