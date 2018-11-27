@@ -2,19 +2,5 @@
     "watch": ["src"],
     "ext": "ts",
     "ignore": ["src/**/*.spec.ts"],
-    "exec": "ts-node -r tsconfig-paths/register src/main.ts",
-    "env": {
-        "PAYU_ENDPOINT": "https://sandbox.api.payulatam.com",
-        "URL_SERVER": "https://35dce783.ngrok.io",
-        "FIRE_TYPE": "service_account",
-        "FIRE_PROJECT_ID": "pay-integration",
-        "FIRE_PRIVATE_KEY_ID": "a0da9ae6ec266c48961631aa92915c6291f34383",
-        "FIRE_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwFdyftWRgNJpH\n2xtrK/fXScuCwV0bsPUbf09xqNEcyZ4vvQ0hHN0wuY7UopwF/Gm4DQ5APFDqNIsz\nI4gA4bP+6UcuorCPImS4XXgWJJkDwiSjDn7Ka7XO2MVu9X3vorI5OZGx7EsF1Km5\nGWC6KM9xLeyt7ztyMLUWAIpb+sw77nDFzm0tTO023jh/urwxdGfw5sCW/87Hu2sH\nqc/iTTW+NeTsTwSbz49v1ZCuc8Mb2eOB9DTesVJilSIL8j9fcH27LiL4fWQG5in+\n0qKAPmvTpaa/6UMUKPLmQL5wFczba4bHB88KC+CGVI7IiDxk4xfGlRqQFsGt8fcF\nPyw0jVdrAgMBAAECggEAFyhY4pwtfkWMwMR9H6QhrSukWybpAtpL8fjVTuJf1gRi\nDG81idRM9rqAoVBdaqAemzkEVchY7+RHJkuW+F62mGC/ns+AnuJsEp8gSvE3OnpO\n7S7b1+1AdNqnZIder6RbAhGjKp4j47lrNM+0m+cAGSdsCBf9XnAvcJxTlfMu5val\n0uA3cOjQ37pGG2alOu+BZk+iA8UG25nTTpQbDm8JbSzzDdPQdaEIExHhtgYsVocB\nYrs9NWUVJioEbvbMpPdbzLGY1CVk3YlM7gNFXWdretDrvaRsKN0wFNl6WtOMClYo\nC/SRIuJdxg0PsPKsWBm3w2IJvazizU7E3PI5Fnl8SQKBgQDlz4ahP5AY/Shh+n3P\newpfEI1EUWnn5xXL6ZFg2gGdSSxkq2a/T8kX637nDiFzTUzQaL763R0UKCSppqqe\nbci0/iWOqopEViZOnrq8/fp5lnQ8q4B1Tbxj9fKybF9b7Vkc/EklZ7qOLfAkc7go\nA1SbjImuBlqQyWyRN+30bVmPlQKBgQDEJvXmNgYy7atUFGh6feZEdrL/PrGJHrQW\nzcyWC2lFlTFp1dYOEXBNomXn+SIngqcYkkifqBvJObi3kmtuVso+xZsGArzyhBpI\n/tf3jCmaq8pr7yiQjRbXLCMuXtc8ZBJIdpTPXyWcWY42plz59AOxVKI3aPSUoCkF\nGfIFxO2K/wKBgDXP3GSRr7pKPVSEBUW6N/l+tLWUosnssIvpC2O0aMBdzAleoVaW\n5i21tSeBhY+sQBplDKNNd2uq4rrfDgC/EEphYIYBpRLPYXTzciKjDi2+b0Vtm0zc\ngQqfIs9o1QN/lmhVIwOhQGvekebXOf4UmZE63VpknnxczhFLGWss19XpAoGBALJe\n64Wo4wI09nPDCy84hckEV8mcbT1P2lxSURSw084e2Yxwk/K/EOzIHPtRpilfuiux\n+rCU4o+eGcd1MpRoAAoND+frXX77ehufAy1tG/g2+CAmnzCz3G1XCbcFL50PM0EJ\n9FCPKViAZ75ykmIJ78G2QL06iA8Phb3J1jhA1/JpAoGBALsXFq0aClFm/COjZl2+\nY0bKXWLAp+qTBug//Ojp4/54Pu8NOVBNXsOCaBUm8M5ahxscAjEUMtpvNHHY6AOD\nxueC2C8MDGjiktDT47I2nhvsR4nyr73LUeLxBmfKF8kUXVMPmu0SS7clNLCFeY/M\n81dQ4kQPoWQOuMObM0K2/wag\n-----END PRIVATE KEY-----\n",
-        "FIRE_CLIENT_EMAIL": "firebase-adminsdk-p6y22@pay-integration.iam.gserviceaccount.com",
-        "FIRE_CLIENT_ID": "107789748429443004297",
-        "FIRE_AUTH_URI": "https://accounts.google.com/o/oauth2/auth",
-        "FIRE_TOKEN_URI": "https://oauth2.googleapis.com/token",
-        "FIRE_AUTH_PROVIDER_X509_CERT_URL": "https://www.googleapis.com/oauth2/v1/certs",
-        "FIRE_CLIENT_X509_CERT_URL": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p6y22%40pay-integration.iam.gserviceaccount.com"
-    }
+    "exec": "ts-node -r tsconfig-paths/register src/main.ts"
 }
