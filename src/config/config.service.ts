@@ -47,6 +47,8 @@ export class ConfigService {
             auth_provider_x509_cert_url: this.get('FIRE_AUTH_PROVIDER_X509_CERT_URL'),
             client_x509_cert_url: this.get('FIRE_CLIENT_X509_CERT_URL'),
         };
+        console.log(service);
+        
 
         admin.initializeApp({
             credential: admin.credential.cert(service as any),
